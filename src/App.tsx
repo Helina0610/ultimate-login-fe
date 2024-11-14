@@ -1,17 +1,19 @@
-import { useState } from 'react'
+
 import './App.css'
-import Header from './components/layout/Header'
 
 function App() {
 
   return (
-		<>
-			<Header/>
-			<h1 className="text-3xl font-bold underline bg-slate-600">
-				Hello world!
-			</h1>
+		<div className='grid md:justify-items-center'>
+			<div className='flex h-[650px] w-[1280px] rounded-3xl'>
+				<div className='w-2/5 bg-white rounded-l-3xl'>
 
-		</>
+				</div>
+				<div className="w-3/5 bg-cover bg-[url('./assets/image.png')] rounded-r-3xl">
+					
+				</div>
+			</div>
+		</div>
 	)
 }
 
