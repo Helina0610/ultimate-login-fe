@@ -1,3 +1,4 @@
+```
 project-root/
 ├── public/                # 정적 파일 (e.g., favicon, images)
 │   └── favicon.ico
@@ -20,3 +21,4 @@ project-root/
 ├── index.html             # Vite entry point
 ├── package.json
 └── tsconfig.json          # TypeScript 설정 파일
+```
